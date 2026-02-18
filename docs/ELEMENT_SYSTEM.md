@@ -64,7 +64,8 @@ Complete immunity against an element can ONLY be achieved through special mechan
 ## Stack Decay Behavior Types
 
 ### Decays Over Time
-Effect stacks reduce automatically after duration expires. Each stack reduction resets the duration to match the new stack count. Process repeats until 0 stacks (continuous cascade).
+Effect stacks reduce automatically after duration expires. Each stack reduction resets the duration to match the new stack count. Process repeats until 0 stacks (continuous cascade).  
+New Stacks can always be applied again while decaying, decay cascade starts with first stack
 
 **Example:** Miasma at 5 stacks → 5 sec duration → reduces to 4 stacks → 4 sec duration → ... → 0 stacks
 
@@ -106,7 +107,7 @@ Quick lookup table for all Stack and Trigger debuff names:
 - Attack Speed Slow: -20% (constant, non-degrading)
 - DoT: Ticks every 0.5 seconds
 - **DoT Damage Scaling:** 0.1% of max HP per stack per tick (1 stack = 0.1%, 5 stacks = 0.5% per tick)
-
+- New Stacks can always be applied again while decaying, decay cascade starts with first stack
 **Scenario: 5 Miasma Stacks Applied**
 
 **Activation (5 Stacks Applied via Hits):**
@@ -233,7 +234,7 @@ Quick lookup table for all Stack and Trigger debuff names:
 **Root Destruction:**
 - **Standard Destruction:** 3 regular hits to break Root
 - **Fire Spell Destruction:** 1 Fire spell hit destroys Root instantly (no damage from spell)
-- **Immune:** To Lightning spells 
+- **Immune:** To Lightning, Water & Holy Type Spells 
 
 **Cleanse Interaction:**
 - **Cannot be cleansed** with standard Cleanse spells
@@ -252,6 +253,7 @@ Quick lookup table for all Stack and Trigger debuff names:
 - Each hit applies 1 Shock stack (Charged)
 - At 20 stacks: Paralyzed effect triggers
 - Paralyzed effect: Target is stunned for 5 seconds, stacks reset to 0
+- Damage does not cancel Paralysis
 
 **Cleanse Interaction:**
 - **Cleanse spells ONLY** can break Paralysis stun early
@@ -266,20 +268,20 @@ Quick lookup table for all Stack and Trigger debuff names:
 **Mechanic:**
 - Each hit applies 1 Distortion stack
 - Each stack = +2% Spell Cooldown Reduction (applied during spell cast)
-- At 10 stacks: Phase Shifted effect active
+- At 10 stacks: Phase Shifted effect active + Mana and Stamina regeneration reduced by 50%
 - Phase Shift Trigger: **Every hit on entity with 10 stacks triggers teleport** (entity cannot go to 11 stacks)
-- After teleport: Stacks reset to 0
+- After teleport Stacks stay at 10 and slowly Decay, 1 Stack per 2 seconds (For Stack 1-9) When at full Stacks it takes 5 Seconds to decay to 9 Stacks
+- New Stacks can always be applied again while decaying
 
 **Teleport Parameters:**
 - **Horizontal Range:** 3-10 blocks away in a circle around entity
 - **Vertical Range:** 0-8 blocks UPWARD (also can teleport into air/void)
 - Can teleport into air - entity may take **fall damage** depending on landing height
 - **Always finds a valid spot** within range (algorithm always succeeds)
-- Teleport happens instantly, stacks reset immediately after
+- Teleport happens instantly
 
 **Teleport Mechanics:**
 - Repeated application: Every time entity reaches 10 stacks + takes another hit → Phase Shift triggers
-- Stacks reset to 0 after teleport, damage sequence continues
 - Can chain multiple Phase Shifts if hits keep coming
 
 **Example Scenario:**

@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="16" />
+    <option name="cachedIndexableFilesCount" value="19" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -66,7 +66,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Hytale_Dev/Mods_and_Plugins/Dawntale/DawntaleRPG/docs",
+    "last_opened_file_path": "F:/Hytale_Dev/Mods_and_Plugins/Dawntale/DawntaleCore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -164,6 +164,7 @@
       <workItem from="1769991956480" duration="731000" />
       <workItem from="1770670022086" duration="3618000" />
       <workItem from="1771432193896" duration="6510000" />
+      <workItem from="1771444914854" duration="1735000" />
     </task>
     <task id="LOCAL-00001" summary="Added Color codes updated Config">
       <option name="closed" value="true" />

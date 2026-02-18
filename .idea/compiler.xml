@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ExamplePlugin" />
+        <module name="DawntaleRPG" />
         <module name="DawntaleUtils" />
         <module name="DawntaleSync" />
         <module name="dawntale-utils" />
