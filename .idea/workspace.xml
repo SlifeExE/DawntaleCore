@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a9a00e1-5213-4288-ac5f-c8e78b70448c" name="Changes" comment="Updated Textfiles" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="16" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev_tabels_methods" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SlifeExE&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:SlifeExE/DawntaleSync.git&quot;,
+    &quot;accountId&quot;: &quot;33bbdbd5-5a44-4a2b-a134-047cf8b8c7eb&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="38HpMDaf4eAdWr04kxFCzNzGXcH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Dawntale Utils [package].executor": "Run",
+    "Maven.DawntaleDBAPI [clean].executor": "Run",
+    "Maven.DawntaleDBAPI [install].executor": "Run",
+    "Maven.DawntaleDBAPI [package].executor": "Run",
+    "Maven.DawntaleSync [package].executor": "Run",
+    "Maven.DawntaleUtils [package].executor": "Run",
+    "Maven.DawntaleUtils [verify].executor": "Run",
+    "Maven.dawntale-utils [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Hytale_Dev/Mods_and_Plugins/Dawntale/DawntaleRPG/docs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Hytale_Dev\Mods_and_Plugins\Dawntale\DawntaleRPG\docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Hytale_Dev\Mods_and_Plugins\Dawntale\DawntaleRPG" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Hytale Server" type="HytaleServerRunConfiguration" factoryName="HytaleServerRunConfiguration">
+      <option name="buildTask" value="package" />
+      <option name="pluginJarPath" value="target/dawntalesync-1.0.0.jar" />
+      <option name="pluginName" value="Dawntale:DawntaleSync" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DawnTaleDBSync" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DawnTaleDBSync" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a9a00e1-5213-4288-ac5f-c8e78b70448c" name="Changes" comment="" />
+      <created>1768466301331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768466301331</updated>
+      <workItem from="1768466302606" duration="11069000" />
+      <workItem from="1768481092667" duration="4583000" />
+      <workItem from="1768554236009" duration="762000" />
+      <workItem from="1768729761727" duration="444000" />
+      <workItem from="1768730268822" duration="656000" />
+      <workItem from="1768800684111" duration="701000" />
+      <workItem from="1768910306921" duration="1174000" />
+      <workItem from="1768911858432" duration="8947000" />
+      <workItem from="1768937816202" duration="1959000" />
+      <workItem from="1768993315876" duration="8778000" />
+      <workItem from="1769002413464" duration="10220000" />
+      <workItem from="1769017766395" duration="19000" />
+      <workItem from="1769017812515" duration="6473000" />
+      <workItem from="1769032816286" duration="762000" />
+      <workItem from="1769033597482" duration="9000" />
+      <workItem from="1769034711594" duration="8206000" />
+      <workItem from="1769066867787" duration="18232000" />
+      <workItem from="1769104012444" duration="601000" />
+      <workItem from="1769168741590" duration="7000" />
+      <workItem from="1769169035515" duration="4548000" />
+      <workItem from="1769296113763" duration="46000" />
+      <workItem from="1769991956480" duration="731000" />
+      <workItem from="1770670022086" duration="3618000" />
+      <workItem from="1771432193896" duration="6510000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added Color codes updated Config">
+      <option name="closed" value="true" />
+      <created>1768554287103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768554287103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Syncs default player files and adds DB connection">
+      <option name="closed" value="true" />
+      <created>1769296143989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769296143989</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Textfiles and added license">
+      <option name="closed" value="true" />
+      <created>1769992271311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769992271311</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated Textfiles">
+      <option name="closed" value="true" />
+      <created>1769992640342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769992640342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Color codes updated Config" />
+    <MESSAGE value="Syncs default player files and adds DB connection" />
+    <MESSAGE value="Updated Textfiles and added license" />
+    <MESSAGE value="Updated Textfiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Textfiles" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
