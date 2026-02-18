@@ -259,7 +259,7 @@ Quick lookup table for all Stack and Trigger debuff names:
 - **Cleanse spells ONLY** can break Paralysis stun early
 - Healing spells do NOT remove Paralysis (only pure cleanse works)
 - Self-cleanse abilities (on the paralyzed entity) also work
-- Cannot be healed/supported while Paralyzed
+- Can be healed/supported while Paralyzed
 
 ---
 
@@ -267,7 +267,7 @@ Quick lookup table for all Stack and Trigger debuff names:
 
 **Mechanic:**
 - Each hit applies 1 Distortion stack
-- Each stack = +2% Spell Cooldown Reduction (applied during spell cast)
+- Each stack = +2% Spell Cooldown (applied during spell cast)
 - At 10 stacks: Phase Shifted effect active + Mana and Stamina regeneration reduced by 50%
 - Phase Shift Trigger: **Every hit on entity with 10 stacks triggers teleport** (entity cannot go to 11 stacks)
 - After teleport Stacks stay at 10 and slowly Decay, 1 Stack per 2 seconds (For Stack 1-9) When at full Stacks it takes 5 Seconds to decay to 9 Stacks
@@ -325,16 +325,12 @@ Quick lookup table for all Stack and Trigger debuff names:
 **Mechanic:**
 - Each hit applies 1 Sanctify stack (cumulative)
 - At 10 stacks: Purified effect triggers
-- Purified effect: Removes ALL buffs AND debuffs from entity, stacks reset to 0
+- Purified effect: Removes ALL buffs from entity, stacks reset to 0
 
 **Purification Removes:**
 - All positive buffs (damage boosts, speed buffs, shields, etc.)
-- All negative debuffs (slows, DoTs, weakness effects, etc.)
-- Both beneficial and harmful effects are stripped equally
 
 **Strategic Consideration:**
-- Can cleanse friendly buffs if used improperly on allies
-- Can cleanse enemy debuffs if used on enemies (double-edged sword)
 - Useful for resetting state before major encounters
 
 ---
